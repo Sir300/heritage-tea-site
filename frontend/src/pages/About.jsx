@@ -33,7 +33,7 @@ const About = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage:"url('/images/mamanggabar.jpg')",
+            backgroundImage:"url('/images/namanggabar.jpg')",
 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
