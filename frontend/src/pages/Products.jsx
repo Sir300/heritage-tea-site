@@ -15,17 +15,15 @@ const Products = () => {
       : mockProducts.filter((product) => product.type === selectedCategory);
 
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHw0fHx0ZWElMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2MTc0NzYxMnww&ixlib=rb-4.1.0&q=85)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
+   <div
+  className="absolute inset-0 z-0"
+  style={{
+    backgroundImage: "url('/images/tea-bg.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+></div>
+
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/50" />
         </div>
         <div className="relative z-10 text-center text-white px-4">
