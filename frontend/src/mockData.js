@@ -4,7 +4,11 @@ export const mockProducts = [
     name: 'Highland Black Tea',
     type: 'Black Tea',
     description: 'A robust and full-bodied black tea with malty notes and a smooth finish. Grown at high altitude for exceptional flavor.',
-    image: 'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHw0fHx0ZWElMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2MTc0NzYxMnww&ixlib=rb-4.1.0&q=85',
+    images: [
+  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
+],
+
     featured: true,
     features: ['Rich malty flavor', 'High in antioxidants', 'Perfect for morning brew'],
   },
@@ -13,7 +17,11 @@ export const mockProducts = [
     name: 'Heritage Green Tea',
     type: 'Green Tea',
     description: 'Delicate and refreshing green tea with subtle vegetal notes. Hand-processed to preserve natural nutrients.',
-    image: 'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg',
+    images: [
+  'https://....',
+  'https://....'
+],
+
     featured: true,
     features: ['Light and refreshing', 'Rich in catechins', 'Supports metabolism'],
   },
@@ -22,7 +30,11 @@ export const mockProducts = [
     name: 'Premium White Tea',
     type: 'White Tea',
     description: 'Our most delicate tea, made from young buds and leaves. Subtle sweetness with floral undertones.',
-    image: 'https://images.pexels.com/photos/235925/pexels-photo-235925.jpeg',
+    images: [
+  'https://....',
+  'https://....'
+],
+
     featured: false,
     features: ['Minimally processed', 'Highest antioxidant content', 'Naturally sweet'],
   },
@@ -31,7 +43,11 @@ export const mockProducts = [
     name: 'Jasmine Infusion',
     type: 'Specialty',
     description: 'Premium green tea infused with fresh jasmine flowers for a fragrant and aromatic experience.',
-    image: 'https://images.unsplash.com/photo-1491497895121-1334fc14d8c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHx0ZWElMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2MTc0NzYxMnww&ixlib=rb-4.1.0&q=85',
+    images: [
+  'https://....',
+  'https://....'
+],
+
     featured: true,
     features: ['Floral aroma', 'Calming properties', 'Evening favorite'],
   },
@@ -40,7 +56,11 @@ export const mockProducts = [
     name: 'Earl Grey Heritage',
     type: 'Black Tea',
     description: 'Classic Earl Grey with a twist - our premium black tea infused with bergamot oil and hints of citrus.',
-    image: 'https://images.unsplash.com/photo-1586753080433-3b98668a4085?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHx0ZWElMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2MTc0NzYxMnww&ixlib=rb-4.1.0&q=85',
+    images: [
+  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
+],
+
     featured: false,
     features: ['Bergamot infused', 'Citrus notes', 'Afternoon classic'],
   },
@@ -49,7 +69,11 @@ export const mockProducts = [
     name: 'Mint Green Blend',
     type: 'Green Tea',
     description: 'Refreshing blend of premium green tea with natural mint leaves. Perfect for hot or iced tea.',
-    image: 'https://images.unsplash.com/photo-1602020277972-99978250c8bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHx0ZWElMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2MTc0NzYxMnww&ixlib=rb-4.1.0&q=85',
+    images: [
+  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
+],
+
     featured: false,
     features: ['Cooling sensation', 'Digestive aid', 'Naturally caffeine-free blend'],
   },
@@ -58,7 +82,11 @@ export const mockProducts = [
     name: 'Oolong Classic',
     type: 'Specialty',
     description: 'Semi-oxidized tea with complex flavor profile. Combines the best qualities of black and green tea.',
-    image: 'https://images.unsplash.com/photo-1758390276194-3e400df2b224?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHx0ZWElMjBoZXJpdGFnZXxlbnwwfHx8fDE3NjE3NDc2MTd8MA&ixlib=rb-4.1.0&q=85',
+    images: [
+  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
+],
+
     featured: false,
     features: ['Complex flavor', 'Multiple infusions', 'Weight management'],
   },
@@ -67,7 +95,11 @@ export const mockProducts = [
     name: 'Heritage Breakfast Blend',
     type: 'Black Tea',
     description: 'A robust breakfast blend perfect for starting your day. Strong, full-bodied with a hint of sweetness.',
-    image: 'https://images.unsplash.com/photo-1758390287060-aed62e4144f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHx0ZWElMjBoZXJpdGFnZXxlbnwwfHx8fDE3NjE3NDc2MTd8MA&ixlib=rb-4.1.0&q=85',
+    images: [
+  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
+],
+
     featured: true,
     features: ['Bold and energizing', 'Pairs well with milk', 'Morning essential'],
   },
@@ -76,7 +108,11 @@ export const mockProducts = [
     name: 'Silver Needle White',
     type: 'White Tea',
     description: 'Premium white tea made exclusively from young tea buds. The most prized variety in our collection.',
-    image: 'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg',
+    images: [
+  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
+],
+
     featured: true,
     features: ['Young buds only', 'Delicate sweetness', 'Limited production'],
   },
