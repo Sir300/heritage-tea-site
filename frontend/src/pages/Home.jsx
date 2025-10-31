@@ -20,7 +20,8 @@ const Home = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url('/images/namagambar.jpg')
+            backgroundImage: "url('/images/namagamba.jpg')",
+
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
