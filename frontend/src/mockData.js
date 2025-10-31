@@ -4,15 +4,7 @@ export const mockProducts = [
     name: 'Highland Black Tea',
     type: 'Black Tea',
     description: 'A robust and full-bodied black tea with malty notes and a smooth finish. Grown at high altitude for exceptional flavor.',
-images: [
-  '/001.jpg',
-  '/002.jpg'
-]
-
- 
-  'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
-],
-
+    images: ['/001.jpg'],
     featured: true,
     features: ['Rich malty flavor', 'High in antioxidants', 'Perfect for morning brew'],
   },
