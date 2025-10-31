@@ -5,7 +5,7 @@ export const mockProducts = [
     type: 'Black Tea',
     description: 'A robust and full-bodied black tea with malty notes and a smooth finish. Grown at high altitude for exceptional flavor.',
     images: [
-  'https://images.unsplash.com/photo-1602943543714-cf535b048440?crop=entropy&cs=tinysrgb&fit=max&w=1080&q=80',
+ frontend/public/001.jpg,
   'https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg'
 ],
 
